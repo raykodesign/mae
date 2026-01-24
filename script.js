@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- MAQUINA DE ESCRIBIR ---
-    const welcomeMsg = "Mujer de corazón lleno de amor ternura y bondad soy un susurro y la fuerza de un amancer.";
+    const welcomeMsg = "Siempre Diferente Jamás del Montón.";
     function initTypewriter() {
         if(!typingText) return;
         let i = 0;
@@ -185,4 +185,5 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'F12' || e.keyCode === 123) { e.preventDefault(); return false; }
         if (e.ctrlKey && (e.key === 'U' || e.key === 'u')) { e.preventDefault(); return false; }
     });
+
 });

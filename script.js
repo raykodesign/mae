@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- MAQUINA DE ESCRIBIR ---
-    const welcomeMsg = "Siempre Diferente Jamás del Montón.";
+    const welcomeMsg = "Siempre diferente jamás del montón, por eso es que casi no encajo con nadie.";
     function initTypewriter() {
         if(!typingText) return;
         let i = 0;
@@ -187,3 +187,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
